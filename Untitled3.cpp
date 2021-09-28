@@ -23,7 +23,7 @@ int main()
 	SetConsoleCP(1252);
 	SetConsoleOutputCP(1252);
 	
-			
+				
 	/* 
 	 *Nivel y largo de palabra
 	 */
@@ -48,8 +48,7 @@ int main()
 		{
 			archivo >> stLinea;
 			if (stLinea.length() == nNivel)
-			{				
-				//cout << stLinea << endl;
+			{							
 				stPalabra = stLinea;			
 			}			
 		}			
