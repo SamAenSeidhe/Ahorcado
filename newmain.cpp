@@ -32,7 +32,7 @@ void contarLetra();
 void conteoIntentos();
 void proximoNivel();
 void finJuego();
-int victoriaNivel();
+int victoriaNivel(); 
 
 //Función principal de ejecución del código
 int main() {
