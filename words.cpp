@@ -34,7 +34,7 @@ int main()
 	
 	nNumero = 1 + rand() % 1634;
 	
-	cout << "Lineas: " << nNumero << endl;
+	//cout << "Lineas: " << nNumero << endl;
 	
 	
 	/* 
