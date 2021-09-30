@@ -16,7 +16,7 @@ int main()
 	
 	srand ( time(NULL) ); 			//Reinicia la semilla del prng 
 	
-	setlocale(LC_ALL, "spanish");	//io de ñ y tildes
+	setlocale(LC_ALL, "spanish");	//io de Ã± y tildes
 	SetConsoleCP(1252);
 	SetConsoleOutputCP(1252);
 				
@@ -28,7 +28,7 @@ int main()
 		
 	nNivel+=5;
 	
-	nNumero = 1 + rand() % 1634;
+	nNumero = 1 + rand() % 1634; 
 	
 	
 	
