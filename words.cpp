@@ -1,11 +1,8 @@
 #include <fstream>
+#include <ctime>
 #include <iostream>
-#include <string>
 #include <locale.h>
 #include <windows.h>
-#include <ctime>
-#include <cstdlib>
-
 
 using namespace std;
 
@@ -22,7 +19,6 @@ int main()
 	setlocale(LC_ALL, "spanish");	//io de ñ y tildes
 	SetConsoleCP(1252);
 	SetConsoleOutputCP(1252);
-	
 				
 	/* 
 	 *Nivel y largo de palabra
@@ -34,7 +30,7 @@ int main()
 	
 	nNumero = 1 + rand() % 1634;
 	
-	//cout << "Lineas: " << nNumero << endl;
+	
 	
 	
 	/* 
@@ -70,6 +66,7 @@ int main()
 		stPalabra[iii] = tolower(stPalabra[iii]);	
 	}
 	cout << stPalabra << endl;
+			
 	
 	system("pause");
 	return 0;
